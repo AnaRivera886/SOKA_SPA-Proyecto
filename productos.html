@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shirtcut icon" href="img/manda.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles3.css">
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <header>
+                <img src="img/portada3.webp" width="550px">
+                <h2>SOKA SPA</h2>
+                <h1>NUESTROS PRODUCTOS</h1>
+                <nav>
+                    <!-- Encabezado -->
+                    <ul class="menu">
+                        <li><a href="index.html" target="_self">Inicio</a></li>
+                        <li class="submenu">
+                        <a href="servicios.html">Servicios</a>
+                        <ul class="submenu-items">
+                            <li><a href="servicios.html#masajes">Masajes</a></li>
+                            <li><a href="servicios.html#faciales">Tratamientos faciales</a></li>
+                            <li><a href="servicios.html#corporales">Tratamientos corporales</a></li>
+                            <li><a href="servicios.html#belleza">Belleza y cuidado extra</a></li>
+                            <li><a href="servicios.html#especiales">Servicios especiales</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="productos.html">Venta de productos</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <br>
+        <br>
+        
+                            <!-- VENTA DE PRODUCTOS -->
+    <div class="todo">
+        <h1>CONOCE NUESTRA VARIEDAD DE PRODUCTOS Y LOS MAS VENDIDOS!</h1>
+        <br>
+        <hr>
+        <section id="productos">
+            <h2>Productos SPA y Skin Care</h2>
+            <div class="productos-container">
+                <div class="mini-container">
+                    <!-- Producto 1 -->
+                    <div class="producto-card">
+                        <img src="img/productos/aceite.webp" alt="Aceite de aromaterapia">
+                        <div class="producto-info">
+                            <h3>Aceite de Aromaterapia</h3>
+                            <p>Relajante y perfecto para masajes en casa.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$45.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="producto-card">
+                        <img src="img/productos/mascarillaF.webp" alt="Mascarilla facial hidratante">
+                        <div class="producto-info">
+                            <h3>Mascarilla Facial Hidratante</h3>
+                            <p>Nutre e hidrata la piel, dejándola fresca y suave.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$25.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="producto-card">
+                        <img src="img/productos/velas.webp" alt="Velas aromáticas">
+                        <div class="producto-info">
+                            <h3>Velas Aromáticas</h3>
+                            <p>Aromas naturales para crear un ambiente relajante.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$30.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="producto-card" id="skincare">
+                        <img src="img/productos/kitskin.webp" alt="Kit de skincare">
+                        <div class="producto-info">
+                            <h3>Kit de Skin Care</h3>
+                            <p>Incluye limpiador, tónico y crema hidratante.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$95.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="producto-card" id="cafe">
+                        <img src="img/productos/exfocafe.webp" alt="Exfoliante Corporal de Café">
+                        <div class="producto-info">
+                            <h3>Exfoliante Corporal de Café</h3>
+                            <p>Suaviza y renueva la piel</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$38.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="producto-card" id="aloe">
+                        <img src="img/productos/aloev.webp" alt="Crema de Masaje con Aloe Vera">
+                        <div class="producto-info">
+                            <h3>Crema de Masaje con Aloe Vera</h3>
+                            <p>Hidratación y frescura.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$42.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 7 -->
+                    <div class="producto-card">
+                        <img src="img/productos/PIEDRA-VOLCANICAS.webp" alt="Set de Piedras Volcánicas">
+                        <div class="producto-info">
+                            <h3>Set de Piedras Volcánicas</h3>
+                            <p>Terapia de calor.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$85.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 8 -->
+                    <div class="producto-card">
+                        <img src="img/productos/sales.jpg" alt="Sales de Baño con Minerales">
+                        <div class="producto-info">
+                            <h3>Sales de Baño con Minerales</h3>
+                            <p>Relajación profunda.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$28.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 9 -->
+                    <div class="producto-card" id="royo">
+                        <img src="img/productos/royo.jpg" alt="Roller de Jade">
+                        <div class="producto-info">
+                            <h3>Roller de Jade</h3>
+                            <p>Reduce inflamación facial.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$55.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 10 -->
+                    <div class="producto-card" id="lavanda">
+                        <img src="img/productos/lavanda.jpg" alt="Crema Antiestrés con Lavanda">
+                        <div class="producto-info">
+                            <h3>Crema Antiestrés con Lavanda</h3>
+                            <p>Calmante y relajante.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$40.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 11 -->
+                    <div class="producto-card">
+                        <img src="img/productos/agua.webp" alt="Tónico Facial de Rosas">
+                        <div class="producto-info">
+                            <h3>Tónico Facial de Rosas</h3>
+                            <p>Refresca e hidrata.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$27.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 12 -->
+                    <div class="producto-card">
+                        <img src="img/productos/avena.webp" alt="Jabón Artesanal de Miel y Avena">
+                        <div class="producto-info">
+                            <h3>Jabón Artesanal de Miel y Avena</h3>
+                            <p>Suavidad natural.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$15.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 13 -->
+                    <div class="producto-card">
+                        <img src="img/productos/C.jpg" alt="Serum de Vitamina C">
+                        <div class="producto-info">
+                            <h3>Serum de Vitamina C</h3>
+                            <p>Ilumina el rostro.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$70.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 14 -->
+                    <div class="producto-card">
+                        <img src="img/productos/balsamo.jpg" alt="Bálsamo Labial de Karité">
+                        <div class="producto-info">
+                            <h3>Bálsamo Labial de Karité</h3>
+                            <p>Protección y suavidad</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$18.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 15 -->
+                    <div class="producto-card">
+                        <img src="img/productos/mascV.webp" alt="Mascarilla de Arcilla Verde">
+                        <div class="producto-info">
+                            <h3>Mascarilla de Arcilla Verde</h3>
+                            <p>Limpieza profunda.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$30.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 16 -->
+                    <div class="producto-card">
+                        <img src="img/productos/ACEITE-DE-COCO-ORGANICO-VIRGEN_F.webp" alt="Aceite de Coco Orgánico">
+                        <div class="producto-info">
+                            <h3>Aceite de Coco Orgánico</h3>
+                            <p>Multiusos para piel y cabello.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$35.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 17 -->
+                    <div class="producto-card">
+                        <img src="img/productos/peling.jpg" alt="Peeling Suave de Frutas">
+                        <div class="producto-info">
+                            <h3>Peeling Suave de Frutas</h3>
+                            <p>Renovación celular.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$48.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 18 -->
+                    <div class="producto-card">
+                        <img src="img/productos/crema.webp" alt="Crema Corporal con Karité">
+                        <div class="producto-info">
+                            <h3>Crema Corporal con Karité</h3>
+                            <p>Ultra nutritiva.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$50.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 19 -->
+                    <div class="producto-card">
+                        <img src="img/productos/toallas.webp" alt="Toallas Faciales de Bambú">
+                        <div class="producto-info">
+                            <h3>Toallas Faciales de Bambú</h3>
+                            <p>Suaves y ecológicas.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$22.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 20 -->
+                    <div class="producto-card">
+                        <img src="img/productos/humo.webp" alt="Difusor de Aromas Eléctrico">
+                        <div class="producto-info">
+                            <h3>Difusor de Aromas Eléctrico</h3>
+                            <p>Ambientes relajantes.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$120.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 21 -->
+                    <div class="producto-card">
+                        <img src="img/productos/azucar.webp" alt="Exfoliante Labial de Azúcar">
+                        <div class="producto-info">
+                            <h3>Exfoliante Labial de Azúcar</h3>
+                            <p>Labios suaves y frescos</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$20.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 22 -->
+                    <div class="producto-card">
+                        <img src="img/productos/kitcomb.png" alt="Kit de Uñas SPA">
+                        <div class="producto-info">
+                            <h3>Kit de Uñas SPA</h3>
+                            <p>Manicure y pedicure.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$65.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 23 -->
+                    <div class="producto-card">
+                        <img src="img/productos/masC.png" alt="Mascarilla de Colágeno">
+                        <div class="producto-info">
+                            <h3>Mascarilla de Colágeno</h3>
+                            <p>Rejuvenecimiento facial.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$55.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 24 -->
+                    <div class="producto-card">
+                        <img src="img/productos/shampoo.webp" alt="Shampoo Natural de Aloe Vera">
+                        <div class="producto-info">
+                            <h3>Shampoo Natural de Aloe Vera</h3>
+                            <p>Hidratación capilar.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$35.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 25 -->
+                    <div class="producto-card">
+                        <img src="img/productos/coco.jpg" alt="Acondicionador de Coco y Miel">
+                        <div class="producto-info">
+                            <h3>Acondicionador de Coco y Miel</h3>
+                            <p>Brillo y suavidad.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$37.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 26 -->
+                    <div class="producto-card">
+                        <img src="img/productos/eucalipto.webp" alt="Aceite Esencial de Eucalipto">
+                        <div class="producto-info">
+                            <h3>Aceite Esencial de Eucalipto</h3>
+                            <p>Descongestionante y relajante.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$40.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 27 -->
+                    <div class="producto-card">
+                        <img src="img/productos/manta.jpg" alt="Manta Térmica SPA">
+                        <div class="producto-info">
+                            <h3>Manta Térmica SPA</h3>
+                            <p>Relajación en casa.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$150.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 28 -->
+                    <div class="producto-card">
+                        <img src="img/productos/natu.jpg" alt="Pack de Inciensos Naturales">
+                        <div class="producto-info">
+                            <h3>Pack de Inciensos Naturales</h3>
+                            <p>Aromas relajantes.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$18.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 29 -->
+                    <div class="producto-card">
+                        <img src="img/productos/micelar.webp" alt="Agua Micelar">
+                        <div class="producto-info">
+                            <h3>Agua Micelar</h3>
+                            <p>Limpieza facial diaria.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$32.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+
+                    <!-- Producto 30 -->
+                    <div class="producto-card">
+                        <img src="img/productos/spacasa.webp" alt="Kit Premium SPA en Casa">
+                        <div class="producto-info">
+                            <h3>Kit Premium SPA en Casa</h3>
+                            <p>Incluye sales, velas y aceites.</p>
+                        </div>
+                        <div class="producto-actions">
+                            <span class="price">$180.000</span>
+                            <button onclick="buy()">Comprar</button onclick="buy()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    
+            <br>
+            <br>
+                        <!-- MAS VENDIDOS -->
+        <table border>
+            <th colspan="5">TOP 5 PRODUCTOS MAS VENDIDOS</th>
+            <tr>
+                <th><a href="#skincare"><img src="img/productos/kitskin.webp"  alt="kitskin"></a></th>
+                <th><a href="#aloe"><img src="img/productos/aloev.webp"  alt=""></a></th>
+                <th><a href="#lavanda"><img src="img/productos/lavanda.jpg"  alt=""></a></th>
+                <th><a href="#royo"><img src="img/productos/royo.jpg" ></a></th>
+                <th><a href="#cafe"><img src="img/productos/exfocafe.webp"></a></th>
+            </tr>
+            <tr>
+                <th>Kit de Skin Care</th>
+                <th>Crema de Masaje con Aloe Vera</th>
+                <th>Crema Antiestrés con Lavanda</th>
+                <th>Roller de Jade</th>
+                <th>Exfoliante Corporal de Café</th>
+            </tr>
+        </table>
+
+                <!-- PATA DE PAGINA -->
+        <footer>
+            <img src="img/Soka spa2.svg" width="30%">
+            <br>
+            <span>Espacio unico para que te relajes</span>
+            <br>
+                    <!-- LOGOS -->
+            <a href="tel:+573046800957"><img src="img/llamada.png" width="50px"></a>
+            <a href="https://www.facebook.com/anasofia.rivera.10420321" target="_blank"><img src="img/facebook.png" width="50px"></a>
+            <a href="https://web.whatsapp.com/" target="_blank""><img src="img/wasa.png" width="50px"></a>
+            <a href="https://www.instagram.com/anitta_86sr/" target="_blank"><img src="img/insta.png" ></a>
+            <br>
+
+            <form id="Contacto">
+                <h4>CONTACTANOS</h4>
+                <input type="text" placeholder="Nombre">
+                <input type="email" name="" id="" placeholder="Correo">
+                <input type="text" placeholder="Mensaje">
+                <button type="button" onclick="enviar()">ENVIAR</button>
+            </form>
+        </footer>
+
+            <!-- SCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script>
+            function buy() {
+                Swal.fire({
+                title: "¡ESPERA!",
+                text: "¿Quieres realizar la compra?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Si, quiero comprar"
+                }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                    title: "TU PEDIDO FUE COMPRADO!",
+                    text: "Gracias por tu compra! Te contactaremos",
+                    icon: "success"
+                    });
+                }
+                });
+            }
+
+            function enviar() {
+                Swal.fire({
+                title: "ENVIADO!",
+                icon: "success",
+                draggable: true
+                });
+            }
+        </script>
+
+    </div>
+</body>
+</html>

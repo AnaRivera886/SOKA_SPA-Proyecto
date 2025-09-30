@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="shirtcut icon" href="img/manda.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles4.css">
+</head>
+<body>
+    <header>
+    <h1>RESERVA TU SECCIÓN</h1><img src="img/Soka spa2.svg" width="300px"><h1>SOKA SPA</h1>
+    </header>
+
+
+    <br><br><br><br>
+                <!-- FORMULARIO -->
+    <div class="formu">
+        <form action="agenda">
+            <h2>RESERVA TU SECCIÓN</h2>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+            <input type="tel" name="telefono" id="telefono" placeholder="Telefono" required>
+            <input type="date" name="fecha" id="fecha" required>
+            <button type="button" onclick="enviar()">ENVIAR RESERVA</button>
+        </form>
+
+        <!-- SCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script>
+            function enviar() {
+                Swal.fire({
+                title: "ENVIADO!",
+                icon: "success",
+                draggable: true
+                });
+            }
+        </script>
+    </div>
+</body>
+</html>
